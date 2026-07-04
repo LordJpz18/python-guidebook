@@ -66,12 +66,34 @@ http://localhost:8000
 
 ## Publier sur GitHub Pages
 
-1. Créer un dépôt GitHub.
-2. Envoyer ces fichiers dans le dépôt.
-3. Aller dans `Settings` > `Pages`.
-4. Dans `Build and deployment`, choisir `Deploy from a branch`.
-5. Sélectionner la branche `main` et le dossier `/root`.
+Deux méthodes sont possibles.
+
+### Méthode recommandée : GitHub Actions
+
+Le projet contient déjà le workflow :
+
+```text
+.github/workflows/pages.yml
+```
+
+1. Envoyer le projet sur GitHub.
+2. Aller dans `Settings` > `Pages`.
+3. Dans `Build and deployment`, choisir `GitHub Actions`.
+4. Pousser sur `main` ou `master`.
+5. Attendre la fin de l'action `Deploy static site to GitHub Pages`.
+
+Cette méthode publie directement les fichiers statiques du dépôt.
+
+### Méthode simple : publier depuis une branche
+
+1. Envoyer ces fichiers dans le dépôt.
+2. Aller dans `Settings` > `Pages`.
+3. Dans `Build and deployment`, choisir `Deploy from a branch`.
+4. Sélectionner la branche qui existe réellement dans le dépôt, par exemple `main` ou `master`.
+5. Sélectionner le dossier `/root`.
 6. Enregistrer.
+
+Attention : si le dépôt utilise la branche `master`, ne sélectionnez pas `main`, sinon GitHub Pages ne trouvera pas les fichiers à publier.
 
 Le site sera publié à une adresse du type :
 
