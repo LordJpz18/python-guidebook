@@ -140,7 +140,7 @@
         <div>
           <span class="kicker">Formation Python 9-12 ans</span>
           <h1>Apprendre Python, raisonner et utiliser l'IA avec esprit critique</h1>
-          <p class="lead">Un site statique et un ebook en ligne pour découvrir la programmation pas à pas : activités sans ordinateur, exemples Python, exercices, corrigés masqués, mini-projets et projets finaux.</p>
+          <p class="lead">Un ebook en ligne pour découvrir la programmation pas à pas : activités sans ordinateur, exemples Python, exercices, corrigés masqués, mini-projets et projets finaux.</p>
           <div class="callout tip">
             <p><strong>Idée importante :</strong> programmer, ce n'est pas seulement écrire du code. C'est apprendre à résoudre des problèmes étape par étape. Python est accessible pour débuter, et l'IA peut aider à comprendre ou corriger, mais elle ne remplace pas tes tests, tes questions et ton raisonnement.</p>
           </div>
